@@ -44,16 +44,58 @@
             //Employee employee = new Employee();
             //employee.Work();
 
-            BaseClass baseClass = new BaseClass();
-            baseClass.DisplayMessage();
+            //BaseClass baseClass = new BaseClass();
+            //baseClass.DisplayMessage();
 
-            BaseClass baseClass1 = new DerivedClass1();
-            baseClass1.DisplayMessage();
+            //BaseClass baseClass1 = new DerivedClass1();
+            //baseClass1.DisplayMessage();
 
-            BaseClass baseClass2 = new DerivedClass2();
-            baseClass2.DisplayMessage();
+            //BaseClass baseClass2 = new DerivedClass2();
+            //baseClass2.DisplayMessage();
 
+            Duration D1 = new Duration(1, 10, 15);
+            D1.ToString();
+            Console.WriteLine(D1);
 
+            Duration D2 = new Duration(3600);
+            D2.ToString();
+            Console.WriteLine(D2);
+
+            Duration D3 = new Duration(7800);
+            D3.ToString();
+            Console.WriteLine(D3);
+
+            Duration D4 = new Duration(666);
+            D4.ToString();
+            Console.WriteLine(D4);
+
+            D3 = D1 + D2;
+            Console.WriteLine(D3);
+
+            D3 = D1 + 7800;
+            Console.WriteLine(D3);
+
+            D3 = 666 + D3;
+            Console.WriteLine(D3);
+
+            D3 = ++D1;
+            Console.WriteLine(D3);
+
+            D3 = --D2;
+            Console.WriteLine(D3);
+
+            D3 = D1 - D2;
+            Console.WriteLine(D3);
+
+            if (D1 > D2)
+                Console.WriteLine("D1 is bigger");
+            else
+                Console.WriteLine("D2 is bigger");
+
+            if (D1 <= D2)
+                Console.WriteLine("D1 is less than or equal");
+            else
+                Console.WriteLine("D2 is bigger");
         }
     }
 }
