@@ -21,22 +21,28 @@
             //Rectangle rectangle3 = new Rectangle(1);
             //Console.WriteLine(rectangle3);
 
-            ComplexNumber complexNumber1 = new ComplexNumber();
-            ComplexNumber complexNumber2 = new ComplexNumber();
-            ComplexNumber complexNumber3 = new ComplexNumber();
-            ComplexNumber complexNumber4 = new ComplexNumber();
+            //ComplexNumber complexNumber1 = new ComplexNumber();
+            //ComplexNumber complexNumber2 = new ComplexNumber();
+            //ComplexNumber complexNumber3 = new ComplexNumber();
+            //ComplexNumber complexNumber4 = new ComplexNumber();
 
-            complexNumber1.Real = 10;
-            complexNumber2.Real = 20;
+            //complexNumber1.Real = 10;
+            //complexNumber2.Real = 20;
 
-            complexNumber1.Imaginary = 30;
-            complexNumber2.Imaginary = 40;
+            //complexNumber1.Imaginary = 30;
+            //complexNumber2.Imaginary = 40;
 
-            complexNumber3 = complexNumber1 + complexNumber2;
-            complexNumber4 = complexNumber1 - complexNumber2;
+            //complexNumber3 = complexNumber1 + complexNumber2;
+            //complexNumber4 = complexNumber1 - complexNumber2;
 
-            Console.WriteLine(complexNumber3);
-            Console.WriteLine(complexNumber4);
+            //Console.WriteLine(complexNumber3);
+            //Console.WriteLine(complexNumber4);
+
+            Manager manager = new Manager();
+            manager.Work();
+
+            Employee employee = new Employee();
+            employee.Work();
         }
     }
 }
