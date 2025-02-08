@@ -17,7 +17,7 @@
 
             //Rectangle rectangle2 = new Rectangle(1,2);
             //Console.WriteLine(rectangle2);
-            
+
             //Rectangle rectangle3 = new Rectangle(1);
             //Console.WriteLine(rectangle3);
 
@@ -44,14 +44,14 @@
             //Employee employee = new Employee();
             //employee.Work();
 
-            //BaseClass baseClass = new BaseClass();
-            //baseClass.DisplayMessage();
+            BaseClass baseClass = new BaseClass();
+            baseClass.DisplayMessage();
 
-            //BaseClass baseClass1 = new DerivedClass1();
-            //baseClass1.DisplayMessage();
+            BaseClass baseClass1 = new DerivedClass1();
+            baseClass1.DisplayMessage();
 
-            //BaseClass baseClass2 = new DerivedClass2();
-            //baseClass2.DisplayMessage();
+            BaseClass baseClass2 = new DerivedClass2();
+            baseClass2.DisplayMessage();
 
 
         }
