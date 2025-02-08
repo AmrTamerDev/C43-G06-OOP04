@@ -38,11 +38,22 @@
             //Console.WriteLine(complexNumber3);
             //Console.WriteLine(complexNumber4);
 
-            Manager manager = new Manager();
-            manager.Work();
+            //Manager manager = new Manager();
+            //manager.Work();
 
-            Employee employee = new Employee();
-            employee.Work();
+            //Employee employee = new Employee();
+            //employee.Work();
+
+            //BaseClass baseClass = new BaseClass();
+            //baseClass.DisplayMessage();
+
+            //BaseClass baseClass1 = new DerivedClass1();
+            //baseClass1.DisplayMessage();
+
+            //BaseClass baseClass2 = new DerivedClass2();
+            //baseClass2.DisplayMessage();
+
+
         }
     }
 }
